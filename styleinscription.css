@@ -76,6 +76,8 @@ a, a:link, a:visited{
 
 /* FIN NAVBAR */
 
+/* DEBUT FENETRE INSCRIPTION */
+
 .fenetreinscription {
     display: flex;
     background-color: #c7ebf07e;
@@ -83,7 +85,7 @@ a, a:link, a:visited{
     align-items: center;
     position: fixed;
     width: 1200px;
-    height: 500px;
+    /* height: 500px; */
     left: 120px;
     top: 246px;
     background: rgba(199, 235, 240, 0.5);
@@ -116,6 +118,11 @@ label {
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: center;
+}
+
+.gros {
+    font-size: 1.5rem;
+    padding-left: 15px;
 }
 
 #valider {
