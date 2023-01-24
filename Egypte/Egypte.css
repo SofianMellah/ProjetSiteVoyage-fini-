@@ -1,7 +1,8 @@
 body{
-    background: url(./images/Egypteee.jpg);
+    background-color: #140f2d;
     background-size: 100%;
 }
+
 nav {
     background-color: #4F759B;
     display: flex;
@@ -56,4 +57,9 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
+}
+
+.ima img{
+    display: flex;
+    margin: auto;
 }

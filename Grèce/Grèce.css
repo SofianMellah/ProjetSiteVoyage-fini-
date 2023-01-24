@@ -1,9 +1,7 @@
-body{
-    background: url(./images/Grèce.jpg);
-    background-size: cover;
-}
+
 nav {
-    background-color: #4F759B;
+    background: rgb(79,117,155);
+    background: radial-gradient(circle, rgba(79,117,155,1) 90%, rgba(36,43,75,0) 99%);
     display: flex;
     justify-content: space-around;
     align-items: center;
