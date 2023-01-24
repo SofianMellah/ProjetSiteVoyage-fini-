@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
-*{
-    margin: 0;
-}
-
-/* Body Sofian (Original) */
-        /* vvvv */
-/* body{
-    background: rgb(36, 0, 0);
-    background: #140F2D
-} */
-
-/* Body 2.0 (ajout gradient) */
 
 body {
     background-color: #140f2d;
@@ -19,14 +6,15 @@ body {
 }
 .carte{
     width:90%;
-    height: 90%;
+    height: 80%;
     display: flex;
     margin: auto;
-    margin-top: 0%;
+    margin-top: 100px;
 }
 nav ul{
     padding-top: 21px;
-    justify-content: sp;
+    margin:0;
+    margin-top:0;
     text-align: center;
     display: flex;
     font-weight: bolder;
@@ -37,7 +25,7 @@ nav ul{
 nav ul li{
     font-family: 'Alatsi', sans-serif;
     padding-left: 25px;
-    margin: 0 5%;
+    margin: 0 97px;
     text-decoration: none;
     list-style: none;
 }
