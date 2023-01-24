@@ -3,12 +3,15 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styleinscription.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Inscription</title>
   </head>
   <body>
     <nav>
@@ -37,11 +40,15 @@
       <a href=""><img class="iconeprofil" src="./Images/Icone_profil.png" alt=""></a>
     </nav>
     <div class="fenetreinscription">
-      <h1>Connexion</h1>
+      <h1>Inscription</h1>
       <form action="inscription">
         <label for="identifiant">Identifiant :</label>
-        <input type="text" name="identifiant" id="identifiant">
-        <label for="mdp"></label>
+        <input type="text" class="gros" name="identifiant" id="identifiant" required>
+        <label for="mdp">Mot de passe :</label>
+        <input type="password" class="gros" required>
+        <label for="mail">Adresse e-mail :</label>
+        <input type="mail" class="gros" required>
+        <input type="button" name="valider" id="valider" value="s'inscrire">
       </form>
     </div>
   </body>
