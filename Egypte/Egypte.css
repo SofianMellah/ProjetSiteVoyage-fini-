@@ -1,12 +1,20 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
 body{
     background-color:#140f2d;
 }
 nav {
+    margin: 0;
     background-color: #4F759B;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 85px;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 .logoaccueil {
     width: 75px;
@@ -55,12 +63,4 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
-}
-.egypte img{
-    width: 100vw;
-    height: 90vh;
-}
-.egypte{
-    display: flex;
-    justify-content: center;
 }

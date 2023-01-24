@@ -1,6 +1,9 @@
+*{
+    margin: 0; 
+    padding: 0;
+ }
 body{
-    background: url(./images/Pérou.jpg);
-    background-size: 100%;
+    background-color: #140f2d;
 }
 nav {
     background-color: #4F759B;
@@ -8,6 +11,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 85px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
 .logoaccueil {
     width: 75px;
