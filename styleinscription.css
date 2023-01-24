@@ -131,3 +131,11 @@ label {
     left: 899px;
     top: 660px;
 }
+
+div .fenetreinscription {
+    display: flex;
+}
+
+input {
+    
+}
