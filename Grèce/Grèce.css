@@ -69,3 +69,7 @@ a, a:link, a:visited{
     display: block;
     padding-left: 15px;
 }
+.grèce{
+    width: 100vw;
+    height: 80vh;
+}
