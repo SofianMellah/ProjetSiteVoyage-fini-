@@ -64,3 +64,8 @@ a, a:link, a:visited{
     display: block;
     padding-left: 15px;
 }
+ 
+.ima{
+    width: 100vw;
+    height: 85vh;
+}
