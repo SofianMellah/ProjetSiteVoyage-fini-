@@ -1,12 +1,20 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
 body{
     background-color:#140f2d;
 }
 nav {
+    margin: 0;
     background-color: #4F759B;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 85px;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 .logoaccueil {
     width: 75px;
@@ -55,77 +63,4 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
-}
-.egypte img{
-    width: 100vw;
-    height: 85vh;
-}
-.egypte{
-    display: flex;
-    justify-content: center;
-}
-body{
-    background-color: #140f2d;
-    background-size: 100%;
-}
-
-nav {
-    background-color: #4F759B;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 85px;
-}
-.logoaccueil {
-    width: 75px;
-    padding-left: 25px;
-}
-
-.dropbtn {
-    font-family: 'Alatsi', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    background-color: #4F759B;
-    font-size: 35px;
-    border: 0px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    font-family: 'Alatsi', sans-serif;
-}
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #4F759B;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    text-transform: uppercase;
-    font-size: 40px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    overflow: hidden;
-}
-
-.dropdown-content a:hover {background-color: #140f2d}
-
-a, a:link, a:visited{
-    text-decoration: none;
-    color: white
-}
-
-.dropdown-content a {
-    width: 100%;
-    display: block;
-    padding-left: 15px;
-}
-
-.ima img{
-    display: flex;
-    margin: auto;
 }

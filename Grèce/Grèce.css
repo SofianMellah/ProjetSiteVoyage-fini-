@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 
+=======
+*{
+    margin: 0; 
+    padding: 0;
+ }
+body{
+    background-color: #140f2d;
+}
+>>>>>>> 762bcdf7905a6f70b733e49f85dc5faaecb9bfff
 nav {
     background: rgb(79,117,155);
     background: radial-gradient(circle, rgba(79,117,155,1) 90%, rgba(36,43,75,0) 99%);
@@ -6,6 +16,10 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 85px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
 .logoaccueil {
     width: 75px;
