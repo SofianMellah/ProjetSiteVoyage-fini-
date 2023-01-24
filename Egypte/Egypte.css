@@ -1,7 +1,6 @@
 body{
     background-color:#140f2d;
 }
-
 nav {
     background-color: #4F759B;
     display: flex;
@@ -56,4 +55,12 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
+}
+.egypte img{
+    width: 100vw;
+    height: 85vh;
+}
+.egypte{
+    display: flex;
+    justify-content: center;
 }
