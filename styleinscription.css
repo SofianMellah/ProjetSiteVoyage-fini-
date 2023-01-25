@@ -82,7 +82,6 @@ a, a:link, a:visited{
     background-color: #c7ebf07e;
     flex-direction: column;
     align-items: center;
-    position: fixed;
     width: 1200px;
     /* height: 500px; */
     left: 120px;
