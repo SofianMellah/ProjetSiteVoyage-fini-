@@ -1,59 +1,81 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #140f2d;
     background-image: linear-gradient(0deg, rgb(0,0,0) 0%, rgb(20,15,45) 100%);
     background-attachment: fixed;
 }
-.carte{
-    width:90%;
-    height: 80%;
+nav {
+    margin: 0;
+    background-color: #4F759B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.logoaccueil {
+    width: 75px;
+    padding-left: 25px;
+}
+
+.dropbtn {
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #4F759B;
+    font-size: 35px;
+    border: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Alatsi', sans-serif;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4F759B;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: hidden;
+}
+
+.dropdown-content a:hover {background-color: #140f2d}
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: white
+}
+
+.dropdown-content a {
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+}
+.planisphere{
+    padding-top: 85px;
+    width: 80%;
     display: flex;
     margin: auto;
-    margin-top: 100px;
-}
-nav ul{
-    padding-top: 21px;
-    margin:0;
-    margin-top:0;
-    text-align: center;
-    display: flex;
-    font-weight: bolder;
-    font-size: 25px;
-    text-decoration: none;
-    list-style: none;
-}
-nav ul li{
-    font-family: 'Alatsi', sans-serif;
-    padding-left: 25px;
-    margin: 0 97px;
-    text-decoration: none;
-    list-style: none;
-}
-nav{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background: rgb(2,0,36);
-    background: #4f759b;
-    height: 80px;
-}
-a{
-    list-style: none;
-    text-decoration: none;
-    color:rgb(210, 210, 210)
-}
-.logoacceuil{
-    height: 60px;
-    width: 60px;
-    margin-top: -10px;
 }
 footer{
     display: block;
     margin: auto;
     text-align: center;
-}
-footer iframe{
-    border-radius: 30px;
 }
 .vidéo{
     margin-top: 50px;
@@ -71,20 +93,4 @@ footer iframe{
 .Abe{
     height: 70px;
     width: 200px;
-}
-.rechercher{
-    -webkit-appearance: none;
-    height: 30px;
-    width: 180px;
-    padding-top: 8px;
-}
-.menu{
-    padding-top: 0;
-    display: block;
-}
-.menu li{
-    border: 3px groove #A49E9E;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
 }
