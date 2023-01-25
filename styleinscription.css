@@ -87,7 +87,6 @@ a, a:link, a:visited{
     background-color: #c7ebf07e;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 1200px;
     background: rgba(199, 235, 240, 0.5);
     border: 3px solid #FFFFFF;
