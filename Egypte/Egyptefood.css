@@ -1,70 +1,89 @@
-*{
-    margin: 0; 
-    padding: 0;
- }
- body{
-     background-color:#140f2d;
- }
- nav {
-    z-index: 3;
-     margin: 0;
-     background-color: #4F759B;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     height: 85px;
-     position: fixed;
-     left: 0;
-     right: 0;
- }
- .logoaccueil {
-     width: 75px;
-     padding-left: 25px;
- }
- 
- .dropbtn {
-     font-family: 'Alatsi', sans-serif;
-     text-transform: uppercase;
-     color: white;
-     background-color: #4F759B;
-     font-size: 35px;
-     border: 0px;
- }
- 
- .dropdown {
-     position: relative;
-     display: inline-block;
-     font-family: 'Alatsi', sans-serif;
- }
-   
- .dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: #4F759B;
-     min-width: 180px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1;
-     text-transform: uppercase;
-     font-size: 40px;
- }
- 
- .dropdown:hover .dropdown-content {
-     display: block;
-     overflow: hidden;
- }
- 
- .dropdown-content a:hover {background-color: #140f2d}
- 
- a, a:link, a:visited{
-     text-decoration: none;
-     color: white
- }
- 
- .dropdown-content a {
-     width: 100%;
-     display: block;
-     padding-left: 15px;
- }
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: #140f2d;
+    background-image: linear-gradient(0deg, rgb(0,0,0) 0%, rgb(20,15,45) 100%);
+    background-attachment: fixed;
+}
+
+/* DEBUT NAVBAR */
+
+nav {
+    background-color: #4F759B;
+    background-image: url(../Images/Navstyle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+}
+
+.logoaccueil {
+    width: 75px;
+    /* padding-left: 25px; */
+}
+
+.iconeprofil {
+    display: none;
+}
+
+.dropbtn {
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #4f759b00;
+    font-size: 35px;
+    border: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Alatsi', sans-serif;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-size: 100%;
+    min-width: 171px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 40px;
+    border: solid white 3px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: hidden;
+}
+
+.dropdown-content a:hover {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: white
+}
+
+.dropdown-content a {
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+    background-image: url(../Images/Boutonderoulant.png);
+}
+
+/* FIN NAVBAR */
+
  .egypte{
      width: 100%;
      height: 80vh;
