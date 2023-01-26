@@ -98,9 +98,10 @@ a, a:link, a:visited{
     color: #EECFD4;
     font-size: 50px;
     top: 40%;
-    text-align: center;
     width: 100%;
+    text-align: center;
     font-weight:bolder;
+    text-shadow: 3px 3px 3px black;
 }
 section{
     padding: 2%;
@@ -110,6 +111,9 @@ section{
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+.oui section h3{
+    color: #EECFD4;
 }
 h2{
     color: white;
