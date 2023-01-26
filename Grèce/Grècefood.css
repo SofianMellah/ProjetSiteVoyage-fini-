@@ -21,6 +21,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 9vh;
+    position: fixed;
+    width: 100%;
 }
 
 .logoaccueil {
