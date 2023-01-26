@@ -21,6 +21,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 9vh;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 .logoaccueil {
@@ -94,9 +97,10 @@ a, a:link, a:visited{
     color: #EECFD4;
     font-size: 50px;
     top: 40%;
-    text-align: center;
     width: 100%;
+    text-align: center;
     font-weight:bolder;
+    text-shadow: 3px 3px 3px black;
 }
 section{
     padding: 2%;
@@ -107,6 +111,9 @@ section{
     justify-content: space-around;
     text-align: center;
 }
+.oui section h3{
+    color: #EECFD4;
+ }
 h2{
     color: white;
     text-align: center;
@@ -139,7 +146,7 @@ footer iframe{
 }
 .oui section img{
     border-radius: 15px 15px 15px 15px;
--webkit-border-radius: 15px 15px 15px 15px;
--moz-border-radius: 15px 15px 15px 15px;
-border: 5px groove #ababab;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    border: 5px groove #ababab;
 }

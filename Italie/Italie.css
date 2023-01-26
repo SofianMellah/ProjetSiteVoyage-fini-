@@ -21,6 +21,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 9vh;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 .logoaccueil {
@@ -85,3 +88,66 @@ a, a:link, a:visited{
 
 
 /* FIN NAVBAR */
+.italie{
+    width: 100%;
+    height: 80vh;
+}
+.titrepage{
+    z-index: 1;
+    position: absolute;
+    color: #EECFD4;
+    font-size: 50px;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-weight:bolder;
+    text-shadow: 3px 3px 3px black;
+}
+section{
+    padding: 2%;
+    color:white
+}
+.oui{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.oui section h3{
+    color: #EECFD4;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+footer{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+footer iframe{
+    border-radius: 30px;}
+.minitruc{
+    height: 72px;
+    background: rgb(2,0,36);
+    background-color: #4f759b;
+}
+.Abe{
+    height: 70px;
+    width: 200px;
+}
+.imaage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imaage img{
+    border: 5px outset #794AFF;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.oui section img{
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    border: 5px groove #ababab;
+}
