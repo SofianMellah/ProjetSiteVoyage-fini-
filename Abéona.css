@@ -14,7 +14,7 @@ body {
 
 nav {
     background-color: #4F759B;
-    background-image: url(../Images/Navstyle.png);
+    background-image: url(./Images/Navstyle.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -82,7 +82,7 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
-    background-image: url(../Images/Boutonderoulant.png);
+    background-image: url(./Images/Boutonderoulant.png);
 }
 
 /* FIN NAVBAR P */
