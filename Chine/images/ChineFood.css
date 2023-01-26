@@ -23,7 +23,6 @@ nav {
     height: 9vh;
     position: fixed;
     width: 100%;
-    z-index: 3;
 }
 
 .logoaccueil {
@@ -100,7 +99,6 @@ a, a:link, a:visited{
      width: 100%;
      text-align: center;
      font-weight:bolder;
-     text-shadow: 3px 3px 3px black;
  }
  section{
      padding: 2%;
@@ -146,19 +144,31 @@ a, a:link, a:visited{
     -webkit-border-radius: 15px 15px 15px 15px;
     -moz-border-radius: 15px 15px 15px 15px;
     border: 5px groove #ababab;
- }
- .pourbouffer img{
-    width: 20vw;
-    height: 17vh;
- }
- .pourbouffer article{
-   padding-left: 2%;
- }
- .lienpourbouffer{
-    position: absolute;
-    padding-top: 3.5%;
-    padding-left: 15%;
- }
- section .pourbouffer article .lienpourbouffer{
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+.div1 article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
     text-decoration: underline;
- }
+    font-size: 23px;
+}
+    
+.div1 article img{
+    height: 18vh;
+    width: 13vw;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    border: 5px groove #ababab;
+}
+    
+.div1 article img:last-child{
+    visibility: hidden;
+}

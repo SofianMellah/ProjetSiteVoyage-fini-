@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styleconnexion.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connexion</title>
+  </head>
+  <body>
+    <nav>
+      <a href=""
+        ><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""
+      /></a>
+      <div class="dropdown">
+        <button class="dropbtn">Découvrir</button>
+        <div class="dropdown-content">
+          <a href="#">Egypte</a>
+          <a href="#">Grece</a>
+          <a href="#">Italie</a>
+          <a href="#">Perou</a>
+          <a href="#">Chine</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Expériences</button>
+        <div class="dropdown-content">
+          <a href="#">#</a>
+          <a href="#">#</a>
+          <a href="#">#</a>
+        </div>
+      </div>
+      <form>
+        <input type="text" placeholder="Recherche" />
+      </form>
+      <!-- <a href=""><img class="iconeprofil" src="./Images/Icone_profil.png" alt=""></a> -->
+    </nav>
+    <div class="divinscription">
+      <div class="iconeinscription">
+        <span class="spans">o</span><span class="spanb">o</span>
+        <h1>Connexion</h1>
+        <span class="spanb">o</span><span class="spans">o</span>
+      </div>
+      <form class="fenetreinscription" method="get" action="">
+        <label for="identifiant">Identifiant :</label>
+        <input type="text" class="gros" name="identifiant" id="identifiant" required/>
+        <label for="mdp" class="label">Mot de passe :</label>
+        <input type="password" class="gros" required />
+        <div class="space">
+          <a href="./PageInscription.html" class="inscrire">Pas encore inscrit?</a>
+          <a href="./Mdpoublié.html" class="mdp">Mot de passe oublié</a>
+        </div>
+        <input class="valider" type="submit" name="valider" id="valider" value="se connecter"/>
+      </form>
+    </div>
+    <footer>
+      <div class="minitruc">
+        <img class="Abe" src="./Images/Abeona.png" alt="Abeona"/>
+      </div>
+    </footer>
+  </body>
+</html>
