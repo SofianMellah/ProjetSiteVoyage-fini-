@@ -1,32 +1,42 @@
-*{
-    margin: 0; 
-    padding: 0;
- }
-body{
-    background-color: #140f2d;
+* {
+    padding: 0px;
+    margin: 0px;
 }
+
+
+body {
+    background-color: #140f2d;
+    background-image: linear-gradient(0deg, rgb(0,0,0) 0%, rgb(20,15,45) 100%);
+    background-attachment: fixed;
+}
+
+/* DEBUT NAVBAR */
+
 nav {
-    z-index: 3;
     background-color: #4F759B;
+    background-image: url(../Images/Navstyle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 85px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    margin: 0;
+    height: 9vh;
 }
+
 .logoaccueil {
     width: 75px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
+}
+
+.iconeprofil {
+    display: none;
 }
 
 .dropbtn {
     font-family: 'Alatsi', sans-serif;
     text-transform: uppercase;
     color: white;
-    background-color: #4F759B;
+    background-color: #4f759b00;
     font-size: 35px;
     border: 0px;
 }
@@ -40,12 +50,13 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #4F759B;
-    min-width: 180px;
+    background-size: 100%;
+    min-width: 171px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-transform: uppercase;
     font-size: 40px;
+    border: solid white 3px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -53,7 +64,11 @@ nav {
     overflow: hidden;
 }
 
-.dropdown-content a:hover {background-color: #140f2d}
+.dropdown-content a:hover {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
 
 a, a:link, a:visited{
     text-decoration: none;
@@ -64,8 +79,9 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
+    background-image: url(../Images/Boutonderoulant.png);
 }
-.italie{
-    width: 100vw;
-    height: 80vh;
-}
+
+
+
+/* FIN NAVBAR */
