@@ -13,11 +13,11 @@
       href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styleconnexion.css" />
+    <link rel="stylesheet" href="./stylemdp.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Connexion</title>
+    <title>Mot de passe oublié</title>
   </head>
   <body>
     <nav>
@@ -50,19 +50,15 @@
     <div class="divinscription">
       <div class="iconeinscription">
         <span class="spans">o</span><span class="spanb">o</span>
-        <h1>Connexion</h1>
+        <h1>Mot de passe oublié</h1>
         <span class="spanb">o</span><span class="spans">o</span>
       </div>
       <form class="fenetreinscription" method="get" action="">
-        <label for="identifiant">Identifiant :</label>
-        <input type="text" class="gros" name="identifiant" id="identifiant" required/>
-        <label for="mdp" class="label">Mot de passe :</label>
+        <label for="nouveaumdp">Nouveau mot de passe :</label>
+        <input type="password" class="gros" name="nouveaumdp" id="nouveaumdp" required/>
+        <label for="confirmmdp" class="label">Confirmer nouveau mot de passe :</label>
         <input type="password" class="gros" required />
-        <div class="space">
-          <a href="./PageInscription.html" class="inscrire">Pas encore inscrit?</a>
-          <a href="./Mdpoublié.html" class="mdp">Mot de passe oublié</a>
-        </div>
-        <input class="valider" type="submit" name="valider" id="valider" value="se connecter"/>
+        <input class="validerconfirm" type="submit" name="validerconfirm" id="validerconfirm" value="confirmer"/>
       </form>
     </div>
     <footer>
