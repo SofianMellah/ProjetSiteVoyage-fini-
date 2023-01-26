@@ -75,6 +75,7 @@ a, a:link, a:visited{
     top: 40%;
     text-align: center;
     width: 100%;
+    font-weight:bolder;
 }
 section{
     padding: 2%;
