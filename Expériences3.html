@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,62 +14,59 @@
     <title>3Expériences</title>
 </head>
 <body>
-    <nav>
-        <a href="../Accueil.html"><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""></a>
-        <div class="dropdown">
-          <button class="dropbtn">Découvrir</button>
-          <div class="dropdown-content">
-            <a href="./Egypte.html">Egypte</a>
-            <a href="../Grèce/Grèce.html">Grece</a>
-            <a href="../Italie/Italie.html">Italie</a>
-            <a href="../Pérou/Pérou.html">Perou</a>
-            <a href="../Egypte/Egypte.html">Chine</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Expériences</button>
-          <div class="dropdown-content">
-            <a href="#">#</a>
-            <a href="#">#</a>
-            <a href="#">#</a>
-          </div>
-        </div>
+
+  <!-- BARRE DE NAVIGATION  -->
+  <nav>
+    <a href="./Accueil.html"><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""></a>
+    <div class="dropdown">
+      <button class="dropbtn">Découvrir</button>
+      <div class="dropdown-content">
+        <a href="#">Egypte</a>
+        <a href="#">Grece</a>
+        <a href="#">Italie</a>
+        <a href="#">Perou</a>
+        <a href="#">Chine</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Expériences</button>
+      <div class="dropdown-content">
+        <a href="#">#</a>
+        <a href="#">#</a>
+        <a href="#">#</a>
+      </div>
+    </div>
         <form>
           <input type="text" placeholder="&#x1F50D Recherche"/>
         </form>
         <a href=""><img class="logoaccueil" src="./Images/Icone_profil.png"></a>
     </nav>
 
+    <!-- FIN BARRE DE NAVIGATION  -->
+
+    <!-- header  -->
+
     <header>
       <h1 class="titrepage">Découvrez l'expérience de milliers de voyageurs et partagez nous la votre !</h1>
       <img class="experience" src="./Images/expérience/Sans titre (1).png">
     </header>
+
+    <!-- fin header  -->
+
     
     <br><br>
+  
+  <!-- Formulaire : Ajout commentaire  -->
 
-  <form class="ajoutcom" method="get" action="">
-    <label class="minidescription">
-      <input type="text" name="description" placeholder="Votre mini description" required>
-  </label>
-    <textarea class="commentaire" name="commentaire" rows="7" cols="180" placeholder="Partagez-nous votre expérience :)" required></textarea>
-    <input class="publier" type="submit" name="publier" id="publier" value="Publier">  </form>
+  <div class="divcommentaire">
+   <form class="ajoutcom" method="get">
+       <textarea class="minidescription" name="commentaire" rows="2" cols="180" placeholder="Titre de votre expérience" required></textarea>
+       <textarea class="commentaire" name="commentaire" rows="7" cols="180" placeholder="Partagez-nous votre expérience :)" required></textarea>
+       <input class="publier" type="submit" name="publier" id="publier" value="Publier">  
+   </form>
+  </div> 
 
-    <!-- <div class="divinscription">
-      <div class="iconeinscription">
-        <span class="spans">o</span><span class="spanb">o</span>
-        <h1>Inscription</h1>
-        <span class="spanb">o</span><span class="spans">o</span>
-      </div>
-        <form class="fenetreinscription" method="get" action="">
-          <label for="identifiant">Identifiant :</label>
-          <input type="text" class="gros" name="identifiant" id="identifiant" required>
-          <label for="mdp" class="label">Mot de passe :</label>
-          <input type="password" class="gros" required>
-          <label for="mail" class="label">Adresse e-mail :</label>
-          <input type="mail" class="gros" required>
-          <input class="valider" type="submit" name="valider" id="valider" value="s'inscrire">
-        </form>
-      </div> -->
+  <!-- fin Formulaire : Ajout commentaire  -->
 
     <div class="fenetreexperience">
         <section>
