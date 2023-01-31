@@ -90,7 +90,7 @@ a, a:link, a:visited{
     text-transform: uppercase;
     color: #EECFD4;
     font-size: 50px;
-    margin-left: 70px;
+    text-align: center;    
     margin-top: 40px;
     top: 35%;
 }
@@ -121,6 +121,7 @@ form {
     background-color: rgb(232, 226, 226);
     border: solid rgb(232, 226, 226);
     font-weight: 900;
+    text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
