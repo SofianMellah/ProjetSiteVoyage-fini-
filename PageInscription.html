@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styleinscription.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Inscription</title>
   </head>
   <body>
     <nav>
-      <a href=""><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""></a>
+      <a href="./Accueil.html"><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""></a>
       <div class="dropdown">
         <button class="dropbtn">Découvrir</button>
         <div class="dropdown-content">
@@ -31,7 +37,28 @@
       <form>
         <input type="text" placeholder="Recherche" />
       </form>
-      <a href=""><img class="logoaccueil" src="./Images/Icone_profil.png" alt=""></a>
+      <!-- <a href=""><img class="iconeprofil" src="./Images/Icone_profil.png" alt=""></a> -->
     </nav>
+    <div class="divinscription">
+    <div class="iconeinscription">
+      <span class="spans">o</span><span class="spanb">o</span>
+      <h1>Inscription</h1>
+      <span class="spanb">o</span><span class="spans">o</span>
+    </div>
+      <form class="fenetreinscription" method="get" action="">
+        <label for="identifiant">Identifiant :</label>
+        <input type="text" class="gros" name="identifiant" id="identifiant" required>
+        <label for="mdp" class="label">Mot de passe :</label>
+        <input type="password" class="gros" required>
+        <label for="mail" class="label">Adresse e-mail :</label>
+        <input type="mail" class="gros" required>
+        <input class="valider" type="submit" name="valider" id="valider" value="s'inscrire">
+      </form>
+    </div>
+    <footer>
+      <div class="minitruc">
+          <img class="Abe" src="./Images/Abeona.png" alt="Abeona">
+      </div>
+  </footer>
   </body>
 </html>
