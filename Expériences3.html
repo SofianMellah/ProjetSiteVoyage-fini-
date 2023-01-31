@@ -10,10 +10,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styleexperience.css">
-    <title>1Expériences</title>
+    <link rel="stylesheet" href="./styleexperience3.css">
+    <title>3Expériences</title>
 </head>
 <body>
+
+  <!-- BARRE DE NAVIGATION  -->
   <nav>
     <a href="./Accueil.html"><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""></a>
     <div class="dropdown">
@@ -40,21 +42,38 @@
         <a href=""><img class="logoaccueil" src="./Images/Icone_profil.png"></a>
     </nav>
 
+    <!-- FIN BARRE DE NAVIGATION  -->
+
+    <!-- header  -->
+
     <header>
       <h1 class="titrepage">Découvrez l'expérience de milliers de voyageurs et partagez nous la votre !</h1>
       <img class="experience" src="./Images/expérience/Sans titre (1).png">
     </header>
+
+    <!-- fin header  -->
+
     
     <br><br>
+  
+  <!-- Formulaire : Ajout commentaire  -->
 
-    <div class="boutonplus"><b>+</b></div>
+  <div class="divcommentaire">
+   <form class="ajoutcom" method="get">
+       <textarea class="minidescription" name="commentaire" rows="2" cols="180" placeholder="Titre de votre expérience" required></textarea>
+       <textarea class="commentaire" name="commentaire" rows="7" cols="180" placeholder="Partagez-nous votre expérience :)" required></textarea>
+       <input class="publier" type="submit" name="publier" id="publier" value="Publier">  
+   </form>
+  </div> 
+
+  <!-- fin Formulaire : Ajout commentaire  -->
 
     <div class="fenetreexperience">
         <section>
             <img class="petitesicones" src="./Images/Icone_profil.png">
             <div class="heart">
-              <a href="./Expériences2.html"><img src="./Images/expérience/hert.png" width="20"></a>
-              <p class="chiffrelike">0</p>
+              <img src="./Images/expérience/Heart-icon.png" width="20">
+              <p class="chiffrelike">1</p>
             </div>
             <h4>“Une journée à la découverte du temple Kom Ombo...”</h4>
             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptas ex vel praesentium nulla nesciunt perferendis velit repudiandae consequuntur autem et quae dolore, numquam amet? Quisquam hic cum voluptatem incidunt!Loremdolor sit amet consectetur adipisicing elit. Delectus vodolor sit amet consectetur adipisicing elit. Delectus vo</p>
@@ -120,7 +139,7 @@
             <div class="date">le 01/12/2022</div>
         </section>
 
-        <div class="boutonplus"><b>+</b></div>
+        <div class="boutonplus"><a href="./Expériences3.html"><b>+</b></a></div>
 
     </div>
     <br><br>

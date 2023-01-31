@@ -9,26 +9,26 @@
     background-attachment: fixed;
 }
 
- nav {
-     margin: 0;
-     background-color: #4F759B;
-     background-image: url(./Images/Navstyle.png);
-     background-repeat: no-repeat;
-     background-size: 100%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     height: 9vh;
-     position: fixed;
-     left: 0;
-     right: 0;
- }
+nav {
+    margin: 0;
+    background-color: #4F759B;
+    background-image: url(./Images/Navstyle.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
 
  .logoaccueil {
      width: 75px;
      padding-left: 25px;
  }
-
+ 
  .dropbtn {
     font-family: 'Alatsi', sans-serif;
     text-transform: uppercase;
@@ -95,6 +95,103 @@ a, a:link, a:visited{
     top: 35%;
 }
 
+/* <!-- Formulaire : Ajout commentaire  --> */
+
+
+form {
+    display: flex;
+}
+
+.ajoutcom {
+    height: 180px;
+    border-radius: 20px;
+    border: solid rgb(218, 166, 166);
+    width: 1600px;
+    background-color: rgb(212, 166, 166);
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publier {
+    color: rgb(95, 75, 75);
+    border-radius: 15px;
+    background-color: rgb(232, 226, 226);
+    border: solid rgb(232, 226, 226);
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.minidescription {
+    color: grey;
+    border-radius: 15px;
+    background-color: rgb(232, 226, 226);
+    border: solid rgb(232, 226, 226);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+.commentaire {
+    color: rgb(116, 108, 108);
+    border-radius: 10px;
+    background-color: rgb(232, 226, 226);
+    border: solid rgb(232, 226, 226);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+/* <!-- Fin de Formulaire : Ajout commentaire  --> */
+
+
+/* <!-- Expériences déjà postées  --> */ 
+
+
+.boutonplus{
+font-size: 40px;
+text-align: center;
+font-weight: 900;
+color: white;
+background-color: rgb(159, 175, 223);
+width: 90px;
+border: solid rgb(159, 175, 223);
+border-radius: 25px;
+margin: auto;
+margin-bottom: 40px;
+}
+
+.petitesicones{
+    float: left;
+    margin-top: 27px;
+}
+
+.heart{
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.chiffrelike{
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.date {
+    float: right;
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
 h4{
     margin-left: 80px;
     margin-bottom: 10px;
@@ -142,42 +239,12 @@ section{
     margin-right: 65px;
 }
 
-.boutonplus{
-font-size: 40px;
-text-align: center;
-font-weight: 900;
-color: white;
-background-color: rgb(159, 175, 223);
-width: 90px;
-border: solid rgb(159, 175, 223);
-border-radius: 25px;
-margin: auto;
-margin-bottom: 40px;
-}
 
-.petitesicones{
-    float: left;
-    margin-top: 27px;
-}
+/* <!-- Fin Expériences déjà postées  --> */ 
 
-.heart{
-    float: right;
-    display: flex;
-    flex-direction: row;
-}
 
-.chiffrelike{
-    font-weight: bold;
-    margin-top: 2px;
-    margin-left: 5px;
-}
+/* <!-- Début Footer  --> */
 
-.date {
-    float: right;
-    color: red;
-    font-size: 14px;
-    font-style: italic;
-}
 
 footer {
     display: block;
@@ -205,3 +272,5 @@ footer {
     position: relative;
     top: -26px;
 }
+
+/* <!-- Fin Footer  --> */ 
