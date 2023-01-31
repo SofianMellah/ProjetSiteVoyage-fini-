@@ -97,16 +97,29 @@ footer{
     margin: auto;
     text-align: center;
 }
+footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 6vh;
+    width: 100%;
+    background: #999;
+}
+
 .minitruc{
-    height: 72px;
+    /* height: 72px; */
     background: rgb(2,0,36);
     background-color: #4f759b;
+    background-image: url(./Images/Navstyle_propre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-.grossevidéo{
-    margin-top: 7px;
-    border-radius: 30px;
-}
+
 .Abe{
-    height: 70px;
     width: 200px;
+    position: relative;
+    top: -26px;
 }
