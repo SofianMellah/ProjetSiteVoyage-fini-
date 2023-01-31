@@ -14,7 +14,7 @@ body {
 
 nav {
     background-color: #4F759B;
-    background-image: url(./Images/Navstyle.png);
+    background-image: url(./Images/Navstyle_propre.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -79,7 +79,7 @@ a, a:link, a:visited{
     width: 100%;
     display: block;
     padding-left: 15px;
-    background-image: url(./Images/Boutonderoulant.png);
+    background-image: url(./Images/Boutonderoulant_propre.png);
 }
 
 
@@ -226,7 +226,7 @@ footer {
     /* height: 72px; */
     background: rgb(2,0,36);
     background-color: #4f759b;
-    background-image: url(./Images/Navstyle.png);
+    background-image: url(./Images/Navstyle_propre.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
