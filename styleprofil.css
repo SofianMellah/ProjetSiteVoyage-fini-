@@ -1,0 +1,313 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: #140f2d;
+    background-image: linear-gradient(0deg, rgb(0,0,0) 0%, rgb(20,15,45) 100%);
+    background-attachment: fixed;
+}
+
+/* DEBUT NAVBAR */
+
+nav {
+    background-color: #4F759B;
+    background-image: url(./Images/Navstyle_propre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+}
+
+.logoaccueil {
+    width: 75px;
+    /* padding-left: 25px; */
+}
+
+.iconeprofil {
+    display: none;
+}
+
+.dropbtn {
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #4f759b00;
+    font-size: 35px;
+    border: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Alatsi', sans-serif;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-size: 100%;
+    min-width: 171px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 40px;
+    border: solid white 3px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    overflow: hidden;
+}
+
+.dropdown-content a:hover {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: white
+}
+
+.dropdown-content a {
+    width: 100%;
+    display: block;
+    padding-left: 15px;
+    background-image: url(./Images/Boutonderoulant_propre.png);
+    /* background-repeat: ; */
+}
+
+
+
+/* FIN NAVBAR */
+
+/* DEBUT FENETRE PROFIL */
+
+.photoprofil img {
+    width: 300px;
+    margin: 35px;
+}
+
+.groupe {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+
+.pseudos {
+    flex-direction: column;
+    align-self: center;
+    display: flex;
+}
+
+p {
+    color: white
+}
+
+.pseudo {
+    background-color: #C7EBF0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.orange {
+    color: #DE6B48;
+    align-self: center;
+    justify-self: flex-end;
+    stroke: #722f1b;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
+
+.panneauprofil {
+    display: flex;
+    background: rgba(199, 235, 240, 0.5);
+    border: 3px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    /* margin: auto; */
+    margin-top: 40px;
+    /* height: 50vh; */
+}
+
+.gras {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.panneauprofil button {
+    width: 265px;
+    height: 57px;
+    align-self: flex-end;
+    background-color: #140F2D;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    align-self: center;
+    margin: 17vh 0vh 3vh 0vh ;
+}
+
+.panneauprofil  {
+
+}
+
+.ensemble {
+    display: flex;
+}
+
+
+/* FIN FENETRE PROFIL */
+
+/* DEBUT MODAL */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+  
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #6c7c8b;
+    margin: 19% auto; /* 19% from the top and centered */
+    padding: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 55%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content label {
+    text-transform: uppercase;
+    color: white;
+    align-self: center;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 26px;
+}
+  
+  /* The Close Button */
+.close {
+    color: #6c7c8b;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cloturer a {
+    justify-self: center;
+    text-align: center;
+    padding: 10px 3px 10px 3px;
+}
+
+.validercloture {
+    width: 265px;
+    /* height: 57px; */
+    align-self: center;
+    background-color: #4F759B;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 25px;
+}
+
+.annulercloture {
+    width: 265px;
+    height: 57px;
+    align-self: center;
+    background-color: #F44336;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 25px;
+}
+
+.myBtn {
+    color: #DE6B48;
+    font-family: 'Inter', sans-serif;
+    text-transform: lowercase;
+    text-decoration: underline;
+    /* -webkit-text-stroke: 1px #671e196b; */
+    font-size: 24px;
+    align-self: flex-start;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.cloturer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FIN MODAL */
+
+/* DEBUT FOOTER */
+
+footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 6vh;
+    width: 100%;
+    background: #999;
+}
+
+.minitruc{
+    /* height: 72px; */
+    
+    background: rgb(2,0,36);
+    background-color: #4f759b;
+    background-image: url(./Images/Navstyle_propre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.Abe{
+    width: 200px;
+    position: relative;
+    top: -23px;
+}
+
+/* FIN FOOTER  */
