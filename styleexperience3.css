@@ -26,6 +26,15 @@ nav {
     width: 100%;
 }
 
+.experience {
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #4f759b00;
+    font-size: 35px;
+    border: 0px;
+}
+
  .logoaccueil {
      width: 75px;
      padding-left: 25px;
