@@ -16,6 +16,8 @@ function afficherlereste(){
 }
 ensavoirplus.addEventListener("click", afficherlereste);
 
+
+// Fin boutton en savoir plus 
 // CAROUSEL
 
 document.getElementById("outer3").addEventListener("click", toggleState3);
@@ -117,7 +119,7 @@ document.addEventListener('keyup',function(e){
 
 loadGallery();
 
-// Fin boutton en savoir plus 
+
 
 // Début boutton rechercher
 
@@ -141,3 +143,5 @@ function ouvrir(){
         window.open(`../Pérou/Pérou.html`)
     }
 }
+
+// Fin boutton rechercher
