@@ -18,6 +18,7 @@ ensavoirplus.addEventListener("click", afficherlereste);
 
 
 // Fin boutton en savoir plus 
+
 // CAROUSEL
 
 document.getElementById("outer3").addEventListener("click", toggleState3);
@@ -120,10 +121,8 @@ document.addEventListener('keyup',function(e){
 loadGallery();
 
 
-
 // Début boutton rechercher
 
-// let larecherche = document.querySelector(`.larecherche`);
 
 function ouvrir(){
     let recherche = document.querySelector(`.larecherche`).value
