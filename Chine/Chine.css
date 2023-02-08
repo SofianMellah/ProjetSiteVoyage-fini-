@@ -113,7 +113,7 @@ a, a:link, a:visited{
 }
 section{
     padding: 2%;
-    color:white
+    color:white;
 }
 .oui{
     display: flex;
