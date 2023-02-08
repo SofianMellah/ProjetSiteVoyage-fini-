@@ -37,6 +37,6 @@ function ouvrir(){
         window.open(`../Egypte/Egypte.html`)
     }
     if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
-        window.location.hostname(`../Pérou/Pérou.html`)
+        window.open(`../Pérou/Pérou.html`)
     }
 }
