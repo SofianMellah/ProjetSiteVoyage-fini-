@@ -181,14 +181,14 @@ border: 5px groove #ababab;
     font-weight: 900;
 }
 .lebou{
-    background-color: white;
-    color: #140F2D;
-    width: 16%;
-    padding: 1%;
+    background-color: #C7EBF0;
+    font-family: 'Alatsi', sans-serif;
+    color: #140f2d;
+    text-transform: uppercase;
+    box-shadow: 1.5px 1.5px 3px rgb(63, 79, 129);
+    width: 14%;
+    padding: 5px;
     font-size: 30px;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px groove #000000;
+    border-radius: 50px;
     margin-left: 78%;
 }
