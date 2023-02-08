@@ -59,12 +59,42 @@
   
   <!-- Formulaire : Ajout commentaire  -->
 
-  <div class="divcommentaire">
    <form class="ajoutcom" method="get">
-       <textarea class="minidescription" name="commentaire" rows="2" cols="180" placeholder="Titre de votre expérience" required></textarea>
+    <div class="formu">
+      <input type="titre" id="titre" name="user_titre" placeholder="Ajoutez un titre à votre expérience*" required>
+    </div>
+    <div class="formu">
+      <textarea id="msg" name="user_message" placeholder="Partagez-nous votre expérience :)*" required></textarea>
+  </div>
+  <div class="button">
+      <a class="bouton" href="./Expériences4.html">Publier</a>
+  </div>
+  </form>
+
+
+       <!-- <textarea class="minidescription" name="commentaire" rows="2" cols="180" placeholder="Titre de votre expérience" required></textarea>
        <textarea class="commentaire" name="commentaire" rows="7" cols="180" placeholder="Partagez-nous votre expérience :)" required></textarea>
-       <input class="publier" type="submit" name="publier" id="publier" value="Publier">  
-   </form>
+       <input class="publier" type="submit" name="publier" id="publier" value="Publier">   -->
+
+
+   <!-- <form action="text" method="get">
+    <div class="formu">
+        <label for="name">Votre Nom :</label>
+        <input type="text" id="name" name="user_name" required>
+    </div>
+    <div class="formu">
+        <label for="mail">Votre e-mail :</label>
+        <input type="email" id="mail" name="user_mail" required>
+    </div>
+    <div class="formu">
+        <label for="msg">Votre demande :</label>
+        <textarea id="msg" name="user_message" rows="25" cols="100" placeholder="Ajouter votre message ici" required>Ajouter votre message ici</textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Envoyer</button>
+    </div>
+</form> -->
+
   </div> 
 
   <!-- fin Formulaire : Ajout commentaire  -->
