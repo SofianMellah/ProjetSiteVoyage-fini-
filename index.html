@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Abéona.css">
+    <title>Abéona</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../Accueil.html"><img class="logoaccueil" src="./Images/Abeona_O.png" alt=""></a>
+        <div class="dropdown">
+          <button class="dropbtn">Découvrir</button>
+          <div class="dropdown-content">
+            <a onmouseover="changeimage('Planisphere_Egypte.png')" onmouseout="changeimage('Planisphere.png')" class="Egypte" href="./Egypte/Egypte.html">Égypte</a>
+            <a onmouseover="changeimage('Planisphere_grece.png')" onmouseout="changeimage('Planisphere.png')" class="Grèce" href="../Grèce/Grèce.html">Grèce</a>
+            <a onmouseover="changeimage('Planisphere_Italie.png')" onmouseout="changeimage('Planisphere.png')" class="Italie" href="../Italie/Italie.html">Italie</a>
+            <a onmouseover="changeimage('Planisphere_Perou.png')" onmouseout="changeimage('Planisphere.png')" class="Pérou" href="../Pérou/Pérou.html">Pérou</a>
+            <a onmouseover="changeimage('Planisphere_Chine.png')" onmouseout="changeimage('Planisphere.png')" class="Chine" href="./Chine/Chine.html">Chine</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <!-- <button class="dropbtn">Expériences</button> -->
+          <!-- <div class="dropdown-content"> -->
+            <a href="./Expériences.html" class="experience">Expériences</a>
+            <!-- <a href="./Expériences2.html">Expériences2</a>
+            <a href="./Expériences3.html">Expériences3</a>
+            <a href="./Expériences4.html">Expériences4</a> -->
+          </div>
+        </div>
+        <form>
+          <input type="text" placeholder="&#x1F50D Rechercher"/>
+        </form>
+        <a href="./PageProfil.html"><img class="logoaccueil" src="./Images/Icone_profil.png" alt=""></a>
+    </nav>
+    <div>
+      <img id="image" class="planisphere" src="./Planisphere.png" alt="Planisphere">
+    </div>
+    <footer>
+        <div class="minitruc">
+          <img class="Abe" src="./Images/Abeonabg.png" alt="Abeona">
+      </div>
+    </footer>
+    <script language="javascript">
+      function changeimage(url) {
+      document.getElementById('image').src=url;}
+    </script>
+</body>
