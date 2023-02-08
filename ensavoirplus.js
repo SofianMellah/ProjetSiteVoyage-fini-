@@ -1,3 +1,5 @@
+// Début boutton en savoir plus
+
 let ensavoirplus = document.querySelector(`.lebou`);
 let texte = document.querySelector(`#suitetexte`);
 console.log(ensavoirplus);
@@ -13,3 +15,28 @@ function afficherlereste(){
     }
 }
 ensavoirplus.addEventListener("click", afficherlereste);
+
+// Fin boutton en savoir plus 
+
+// Début boutton rechercher
+
+// let larecherche = document.querySelector(`.larecherche`);
+
+function ouvrir(){
+    let recherche = document.querySelector(`.larecherche`).value
+    if (recherche === `Grèce` || recherche === `grèce`|| recherche === `grece`|| recherche === `Grece`){
+        window.open(`../Grèce/Grèce.html`)
+    }
+    if (recherche === `Italie` || recherche === `italie`){
+        window.open(`../Italie/Italie.html`)
+    }
+    if (recherche === `chine` || recherche === `Chine`){
+        window.open(`../Chine/Chine.html`)
+    }
+    if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `égypte`){
+        window.open(`../Egypte/Egypte.html`)
+    }
+    if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
+        window.location.hostname(`../Pérou/Pérou.html`)
+    }
+}
