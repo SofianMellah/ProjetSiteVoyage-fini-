@@ -110,6 +110,21 @@ h4{
     margin-bottom: 10px;
 }
 
+.validation {
+    color: rgb(28, 93, 46);
+    text-align: center;
+    width: auto;
+    height: 30px;
+    font-size: 25px;
+    background-color: rgb(106, 215, 106);
+    border: solid rgb(106, 215, 106);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+
+}
+
 .para {
 text-align: justify;
 margin-left: 80px;
