@@ -11,8 +11,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Abéona copie.css">
-    <title>Adéona travels</title>
+    <link rel="stylesheet" href="./Abéona copie.css">
+    <title>Abéona</title>
 </head>
 
 <body>
@@ -21,11 +21,11 @@
         <div class="dropdown">
           <button class="dropbtn">Découvrir</button>
           <div class="dropdown-content">
-            <a href="./Egypte/Egypte.html">Egypte</a>
-            <a href="../Grèce/Grèce.html">Grece</a>
-            <a href="../Italie/Italie.html">Italie</a>
-            <a href="../Pérou/Pérou.html">Perou</a>
-            <a href="../Egypte/Egypte.html">Chine</a>
+            <a onmouseover="changeimage('Planisphere_Egypte.png')" onmouseout="changeimage('Planisphere.png')" class="Egypte" href="./Egypte/Egypte.html">Égypte</a>
+            <a onmouseover="changeimage('Planisphere_grece.png')" onmouseout="changeimage('Planisphere.png')" class="Grèce" href="./Grèce/Grèce.html">Grèce</a>
+            <a onmouseover="changeimage('Planisphere_Italie.png')" onmouseout="changeimage('Planisphere.png')" class="Italie" href="./Italie/Italie.html">Italie</a>
+            <a onmouseover="changeimage('Planisphere_Perou.png')" onmouseout="changeimage('Planisphere.png')" class="Pérou" href="./Pérou/Pérou.html">Pérou</a>
+            <a onmouseover="changeimage('Planisphere_Chine.png')" onmouseout="changeimage('Planisphere.png')" class="Chine" href="./Chine/Chine.html">Chine</a>
           </div>
         </div>
         <div class="dropdown">
@@ -40,12 +40,18 @@
         <form>
           <input type="text" placeholder="&#x1F50D Rechercher"/>
         </form>
-        <a class="dropbtn" href="./PageInscription.html">Inscription</a>    
+        <a class="" id="seco" href="./Connexionmodal.html">se connecter</a>    
       </nav>
-    <img class="planisphere" src="./Planisphères/Planisphere.png" alt="Planisphere">
+      <div>
+        <img id="image" class="planisphere" src="./Planisphere.png" alt="Planisphere">
+      </div>
     <footer>
         <div class="minitruc">
           <img class="Abe" src="./Images/Abeonabg.png" alt="Abeona">
       </div>
     </footer>
+    <script language="javascript">
+      function changeimage(url) {
+      document.getElementById('image').src=url;}
+    </script>
 </body>
