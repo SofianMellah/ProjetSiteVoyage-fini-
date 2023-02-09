@@ -134,10 +134,10 @@ function ouvrir(e){
     else if (recherche === `Italie` || recherche === `italie`){
         window.open(`../Italie/Italie.html`,"_self")
     }
-    else if (recherche === `chine` || recherche === `Chine`){
+    else if (recherche === `chine` || recherche === `Chine`|| recherche === `Hebo`|| recherche === `hebo`|| recherche === `Mulan`|| recherche === `mulan`|| recherche === `Sun wukong`|| recherche === `sun wukong`|| recherche === `Sun Wukong`){
         window.open(`../Chine/Chine.html`,"_self")
     }
-    else if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `égypte`){
+    else if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `Raa`|| recherche === `raa`|| recherche === `Seth`|| recherche === `seth`|| recherche === `Osiris`|| recherche === `osiris`){
         window.open(`../Egypte/Egypte.html`,"_self")
     }
     else if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
