@@ -124,23 +124,28 @@ loadGallery();
 // Début boutton rechercher
 
 
-function ouvrir(){
-    let recherche = document.querySelector(`.larecherche`).value
+function ouvrir(e){
+  e.preventDefault();
+  let recherche = document.querySelector('.larecherche input').value
+  
     if (recherche === `Grèce` || recherche === `grèce`|| recherche === `grece`|| recherche === `Grece`){
-        window.open(`../Grèce/Grèce.html`)
+      window.open(`../Grèce/Grèce.html`,"_self")
     }
-    if (recherche === `Italie` || recherche === `italie`){
-        window.open(`../Italie/Italie.html`)
+    else if (recherche === `Italie` || recherche === `italie`){
+        window.open(`../Italie/Italie.html`,"_self")
     }
-    if (recherche === `chine` || recherche === `Chine`){
-        window.open(`../Chine/Chine.html`)
+    else if (recherche === `chine` || recherche === `Chine`){
+        window.open(`../Chine/Chine.html`,"_self")
     }
-    if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `égypte`){
-        window.open(`../Egypte/Egypte.html`)
+    else if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `égypte`){
+        window.open(`../Egypte/Egypte.html`,"_self")
     }
-    if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
-        window.open(`../Pérou/Pérou.html`)
+    else if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
+        window.open(`../Pérou/Pérou.html`,"_self")
     }
+    
 }
+let larecherche=document.querySelector('.larecherche')
+larecherche.addEventListener('submit',ouvrir)
 
 // Fin boutton rechercher

@@ -271,7 +271,7 @@ footer {
   
   #galleryView {
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     /* background: rgb(246,210,106);
     background: linear-gradient(111deg, rgba(246,210,106,1) 0%, rgba(255,159,0,1) 52%, rgba(251,197,100,1) 100%); */
     display: flex;
