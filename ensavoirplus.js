@@ -128,10 +128,10 @@ function ouvrir(e){
   e.preventDefault();
   let recherche = document.querySelector('.larecherche input').value
   
-    if (recherche === `Grèce` || recherche === `grèce`|| recherche === `grece`|| recherche === `Grece`){
+    if (recherche === `Grèce` || recherche === `grèce`|| recherche === `grece`|| recherche === `Grece` || recherche === `Artemis` || recherche === `artemis` || recherche === `Poseidon` || recherche === `poseidon` || recherche === `Hades` || recherche === `hades`){
       window.open(`../Grèce/Grèce.html`,"_self")
     }
-    else if (recherche === `Italie` || recherche === `italie`){
+    else if (recherche === `Italie` || recherche === `italie` || recherche === `Neptune` || recherche === `neptune` || recherche === `Janus` || recherche === `janus` || recherche === `Bacchus` || recherche === `bacchus`){
         window.open(`../Italie/Italie.html`,"_self")
     }
     else if (recherche === `chine` || recherche === `Chine`){
@@ -140,7 +140,7 @@ function ouvrir(e){
     else if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `égypte`){
         window.open(`../Egypte/Egypte.html`,"_self")
     }
-    else if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
+    else if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou` || recherche === `Chaac` || recherche === `chaac` || recherche === `Ah Puch` || recherche === `ah puch` || recherche === `Xbalanque` || recherche === `xbanlanque`){
         window.open(`../Pérou/Pérou.html`,"_self")
     }
     
