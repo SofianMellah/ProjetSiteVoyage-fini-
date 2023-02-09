@@ -36,7 +36,7 @@
             </div>
         </div>
         <form>
-          <input type="text" placeholder="&#x1F50D Recherche"/>
+            <input class="larecherche" type="search" placeholder="Recherche" onchange="ouvrir()"/>
         </form>
         <a href="../PageProfil.html"><img class="logoaccueil" src="./Images/Icone_profil.png"></a>
     </nav>
@@ -72,13 +72,41 @@
     <br><br><br>
     <h2>DÉCOUVREZ L'EXPÉRIENCE DE MILLIERS DE VOYAGEURS ET PARTAGEZ NOUS LA VOTRE !</h2>
     <br><br>
-    <div class="imaage">
+    <!-- tentative carousel -->
+    
+    <div id="container">
+        <div id="toggleContainer">
+           <div id="toggle">
+             <div id="outer3">
+                <div id="slider3"></div>
+             </div>
+          </div>
+        </div>
+        <div id="galleryView">
+          <div id="galleryContainer">
+             <div id="leftView"></div>
+             <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
+             <a id="linkTag">
+                <div id="mainView"></div>
+             </a>
+             <div id="rightView"></div>
+             <button id="navRight" class="navBtns"><i class="fas fa-arrow-right fa-3x"></i></button>
+          </div>
+        </div>
+        <div id="tilesView">
+          <div id="tilesContainer"></div>
+        </div>
+      </div>
+
+    <!-- fin tentative carousel     -->
+    
+    <!-- <div class="imaage">
         <a href=""><img width="233vw" height="133vh" src="./images/femme.jpg" alt="femme"></a>
         <a href=""><img width="266vw" height="166vh" src="./images/desert.jpg" alt="desert"></a>
         <a href=""><img width="300vw" height="200vh" src="./images/chameau.jpg" alt="chameau"></a>
         <a href=""><img width="266vw" height="166vh" src="./images/sphinx.jpg" alt="sphinx"></a>
         <a href=""><img width="233vw" height="133vh" src="./images/souk.jpg" alt="souk"></a>
-    </div>
+    </div> -->
     <br><br>
     <footer>
         <div class="minitruc">
@@ -86,5 +114,6 @@
         </div>
     </footer>
     <script src="../ensavoirplus.js"></script>
+    <script src="../carousel.js"></script>
 </body>
 </html>
