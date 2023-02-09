@@ -124,23 +124,28 @@ loadGallery();
 // Début boutton rechercher
 
 
-function ouvrir(){
-    let recherche = document.querySelector(`.larecherche`).value
-    if (recherche === `Grèce` || recherche === `grèce`|| recherche === `grece`|| recherche === `Grece`){
-        window.open(`../Grèce/Grèce.html`)
+function ouvrir(e){
+  e.preventDefault();
+  let recherche = document.querySelector('.larecherche input').value
+  
+    if (recherche === `Grèce` || recherche === `grèce`|| recherche === `grece`|| recherche === `Grece` || recherche === `Artemis` || recherche === `artemis` || recherche === `Poseidon` || recherche === `poseidon` || recherche === `Hades` || recherche === `hades`){
+      window.open(`../Grèce/Grèce.html`,"_self")
     }
-    if (recherche === `Italie` || recherche === `italie`){
-        window.open(`../Italie/Italie.html`)
+    else if (recherche === `Italie` || recherche === `italie` || recherche === `Neptune` || recherche === `neptune` || recherche === `Janus` || recherche === `janus` || recherche === `Bacchus` || recherche === `bacchus`){
+        window.open(`../Italie/Italie.html`,"_self")
     }
-    if (recherche === `chine` || recherche === `Chine`){
-        window.open(`../Chine/Chine.html`)
+    else if (recherche === `chine` || recherche === `Chine`|| recherche === `Hebo`|| recherche === `hebo`|| recherche === `Mulan`|| recherche === `mulan`|| recherche === `Sun wukong`|| recherche === `sun wukong`|| recherche === `Sun Wukong`){
+        window.open(`../Chine/Chine.html`,"_self")
     }
-    if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `égypte`){
-        window.open(`../Egypte/Egypte.html`)
+    else if (recherche === `egypte` || recherche === `Egypte`|| recherche === `Égypte`|| recherche === `Raa`|| recherche === `raa`|| recherche === `Seth`|| recherche === `seth`|| recherche === `Osiris`|| recherche === `osiris`){
+        window.open(`../Egypte/Egypte.html`,"_self")
     }
-    if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou`){
-        window.open(`../Pérou/Pérou.html`)
+    else if (recherche === `pérou` || recherche === `Pérou`|| recherche === `Perou`|| recherche === `perou` || recherche === `Chaac` || recherche === `chaac` || recherche === `Ah Puch` || recherche === `ah puch` || recherche === `Xbalanque` || recherche === `xbanlanque`){
+        window.open(`../Pérou/Pérou.html`,"_self")
     }
+    
 }
+let larecherche=document.querySelector('.larecherche')
+larecherche.addEventListener('submit',ouvrir)
 
 // Fin boutton rechercher
