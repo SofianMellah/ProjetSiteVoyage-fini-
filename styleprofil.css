@@ -214,6 +214,7 @@ p {
 
 .modal-content label {
     text-transform: uppercase;
+    text-align: center;
     color: white;
     align-self: center;
     font-family: 'Alatsi', sans-serif;
